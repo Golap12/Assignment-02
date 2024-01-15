@@ -445,7 +445,7 @@
     align-items: center;
     justify-content: left;
     height: 500px;
-    background-image: url("./Images/Rectangle\ 12.png");
+    background-image: url("./Images/Rectangle\ 12\ ..2.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -797,12 +797,55 @@
 
     .discount-container {
         margin-top: 100px;
+        width: 100%;
+        
 
     }
 
     .discount-dis{
         padding: 10px;
     }
+
+    .time-price1-content{
+        width: 57%;
+        height: 50%;
+        
+    }
+
+    .discount-1, .discount-2, .discount-3{
+        width: 100%;
+        padding: 0px;
+        justify-content: center;
+    }
+    
+    .time-price1-content{
+        border: 2px solid red;
+        width: 80%;
+        height: 60%;
+        margin-top: 120px;
+        padding: 20px;
+    }
+
+    .time-price{
+        gap: 5px;
+        height: 24%;
+    }
+
+    .price-dis{
+    }
+
+    .tp{
+        height: 70px;
+        overflow: hidden;
+    }
+    .t-price, .pl-name{
+        margin: 0;
+    }
+    .price-dis .pr-btn{
+        margin-top: 18px;
+    }
+
+ /* //////////////////////////////////////////////////    */
 
 
 }
