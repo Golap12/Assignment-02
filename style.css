@@ -326,8 +326,232 @@
     font-weight: 800;
 }
 
+/* ///////////////////////////////////// */
+
+.why-best-container {
+    width: 85%;
+    margin: 100px auto;
+}
+
+.best-title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 2.6rem;
+    font-weight: 800;
+}
+
+.best-dis {
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0 230px;
+}
+
+.best-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 40px;
+}
 
 
+.b-card1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 15px;
+    width: 45%;
+}
+
+.b-card2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 15px;
+    width: 45%;
+}
+
+.b-card3 {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 15px;
+    width: 45%;
+}
+
+.card-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.card-dis {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* ////////////////////////////////////////// */
+
+.discount-container {
+    width: 85%;
+    margin: 100px auto;
+}
+
+.discount-title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.discount-dis {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0 220px;
+}
+
+
+
+
+.discount-1 {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 500px;
+    background-image: url("./Images/Rectangle\ 12.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    padding: 50px;
+    margin-top: 24px;
+}
+.discount-2 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 500px;
+    background-image: url("./Images/Rectangle\ 12.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    padding: 50px;
+    margin-top: 24px;
+}
+.discount-3 {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 500px;
+    background-image: url("./Images/Rectangle\ 12.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    padding: 50px;
+    margin-top: 24px;
+}
+
+
+
+
+
+
+.time-price1-content {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 50px;
+    width: 50%;
+
+    /* width: 579px;
+    height: 389px; */
+    
+
+}
+
+.time-price .tp {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.price-dis .tp {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.price-dis .pl-name {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.t-price {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+.pr-btn {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 13px 24px;
+}
+
+.Packages-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.Packages-btn button{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 13px 24px;
+}
+
+
+.time-price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
 
 
 
@@ -424,7 +648,7 @@
         padding: 0px;
     }
 
-    .choose-container img{
+    .choose-container img {
         height: 176px;
         border-radius: 16px;
     }
@@ -469,9 +693,9 @@
         font-family: Mulish;
         font-size: 28px;
         font-weight: 800;
-    
+
     }
-    
+
     .north {
         position: absolute;
         color: #FFF;
@@ -481,9 +705,9 @@
         font-family: Mulish;
         font-size: 28px;
         font-weight: 800;
-    
+
     }
-    
+
     .kash {
         position: absolute;
         color: #FFF;
@@ -493,7 +717,7 @@
         font-family: Mulish;
         font-size: 28px;
         font-weight: 800;
-    
+
     }
 
     .rd-row {
@@ -509,9 +733,9 @@
         font-family: Mulish;
         font-size: 28px;
         font-weight: 800;
-    
+
     }
-    
+
     .bandor {
         position: absolute;
         color: #FFF;
@@ -521,10 +745,64 @@
         font-family: Mulish;
         font-size: 28px;
         font-weight: 800;
-    
+
     }
 
-/* ////////////////////////////////////////     */
+    /* ////////////////////////////////////////     */
+
+    .why-best-container {
+        margin: -80px auto;
+        /* width: 100%; */
+    }
+
+    .best-title {
+        font-size: 1.2rem;
+    }
+
+    .best-dis {
+        padding: 0px 20px;
+        margin-top: -5px;
+    }
+
+    .best-card {
+        flex-direction: column;
+    }
+
+    .b-card1 {
+        border-radius: 16px;
+        border: 1px solid rgba(251, 181, 99, 0.20);
+        background: rgba(251, 181, 99, 0.05);
+        padding: 15px;
+        width: 90%;
+        margin-top: 16px;
+    }
+
+    .b-card2 {
+        border-radius: 16px;
+        border: 1px solid rgba(41, 206, 246, 0.20);
+        background: rgba(41, 206, 246, 0.05);
+        padding: 15px;
+        width: 90%;
+    }
+
+    .b-card3 {
+        border-radius: 16px;
+        border: 1px solid rgba(251, 181, 99, 0.20);
+        background: rgba(251, 181, 99, 0.05);
+        padding: 15px;
+        width: 90%;
+    }
+
+    /* /////////////////////////////////////////// */
+
+    .discount-container {
+        margin-top: 100px;
+
+    }
+
+    .discount-dis{
+        padding: 10px;
+    }
 
 
 }
