@@ -440,6 +440,7 @@
     padding: 50px;
     margin-top: 24px;
 }
+
 .discount-2 {
     display: flex;
     align-items: center;
@@ -453,6 +454,7 @@
     padding: 50px;
     margin-top: 24px;
 }
+
 .discount-3 {
     display: flex;
     align-items: center;
@@ -482,7 +484,7 @@
 
     /* width: 579px;
     height: 389px; */
-    
+
 
 }
 
@@ -527,13 +529,13 @@
     padding: 13px 24px;
 }
 
-.Packages-btn{
+.Packages-btn {
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
 
-.Packages-btn button{
+.Packages-btn button {
     color: #FFF;
     text-align: center;
     font-family: Mulish;
@@ -552,6 +554,183 @@
     justify-content: center;
     gap: 20px;
 }
+
+/* /////////////////////////////////////////////////// */
+
+
+.video-container {
+    margin: 0 auto;
+    width: 85%;
+    display: flex;
+    gap: 25px;
+
+}
+
+.video-info-content {
+    width: 48%;
+}
+
+.vd-inf-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.7rem;
+    font-weight: 800;
+    line-height: 60px;
+    padding-right: 50px;
+    margin-top: 0px;
+}
+
+.vd-inf-dis {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 0px;
+}
+
+.video-info-content ul li {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 26px;
+    margin-left: -10px;
+    margin-bottom: 5px;
+}
+
+.video-content {
+    width: 52%;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+}
+
+.video-content .video1 {
+    border-radius: 16px;
+    width: 100%;
+    height: 100%;
+}
+
+/* ///////////////////////////////////////////////////////// */
+
+
+.form-container {
+    margin: 100px auto;
+    width: 85%;
+    display: flex;
+    gap: 15px;
+}
+
+.form-content {
+    width: 40%;
+    height: 422px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    /* padding-top: 30px; */
+
+}
+
+.form-content hr {
+    width: 90%;
+    margin-top: 40px;
+}
+
+.form-content h1 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1.8rem;
+    font-weight: 800;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.form-content p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 30px;
+}
+
+.form-content input {
+    margin-left: 30px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 15px 180px 15px 15px;
+    margin-top: 20px;
+    border: none;
+}
+
+.form-content button {
+    margin-left: 30px;
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 15px 145px;
+    margin-top: 20px;
+    border: none;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.img-content {
+    background-image: url("./Images/Rectangle\ 8\ \(1\).png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+    height: 422px;
+    border-radius: 16px;
+}
+
+.img-dis {
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    position: relative;
+    left: 49%;
+    top: 55%;
+}
+
+.img-dis h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+.img-dis h2 {
+    text-align: center;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: -15px;
+}
+
+/* //////////////////////////////////////// */
+
 
 
 
@@ -751,8 +930,8 @@
     /* ////////////////////////////////////////     */
 
     .why-best-container {
-        margin: -80px auto;
-        /* width: 100%; */
+        margin: 0px auto;
+        width: 100%;
     }
 
     .best-title {
@@ -761,11 +940,13 @@
 
     .best-dis {
         padding: 0px 20px;
-        margin-top: -5px;
+        margin-bottom: -25px;
     }
 
     .best-card {
         flex-direction: column;
+        width: 90%;
+        margin: 40px auto;
     }
 
     .b-card1 {
@@ -796,56 +977,122 @@
     /* /////////////////////////////////////////// */
 
     .discount-container {
-        margin-top: 100px;
         width: 100%;
-        
+
 
     }
 
-    .discount-dis{
+    .discount-title {
+        font-size: 1.3rem;
+        margin-bottom: -20px;
+    }
+
+    .discount-dis {
         padding: 10px;
+        margin-bottom: -15px;
     }
 
-    .time-price1-content{
-        width: 57%;
-        height: 50%;
-        
-    }
-
-    .discount-1, .discount-2, .discount-3{
-        width: 100%;
+    .discount-1,
+    .discount-2,
+    .discount-3 {
+        width: 95%;
+        margin: 20px auto;
         padding: 0px;
         justify-content: center;
-    }
-    
-    .time-price1-content{
-        border: 2px solid red;
-        width: 80%;
-        height: 60%;
-        margin-top: 120px;
-        padding: 20px;
+        align-items: end;
     }
 
-    .time-price{
+    .time-price1-content {
+        width: 75%;
+        height: 60%;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .time-price {
         gap: 5px;
         height: 24%;
     }
 
-    .price-dis{
+    .tp {
+        height: 70px;
+        overflow-y: scroll;
     }
 
-    .tp{
-        height: 70px;
-        overflow: hidden;
-    }
-    .t-price, .pl-name{
+    .t-price,
+    .pl-name {
         margin: 0;
     }
-    .price-dis .pr-btn{
+
+    .price-dis .pr-btn {
         margin-top: 18px;
     }
 
- /* //////////////////////////////////////////////////    */
+    /* //////////////////////////////////////////////////    */
+
+    .video-container {
+        flex-direction: column;
+    }
+
+    .video-info-content {
+        width: 100%;
+    }
+
+    .vd-inf-title {
+        font-size: 1.5rem;
+        line-height: 30px;
+        padding-right: 50px;
+    }
+
+    .vd-inf-dis,
+    .video-info-content ul {
+        font-size: 0.8rem;
+
+    }
+
+
+    .video-content {
+        width: 100%;
+    }
+
+    /* ///////////////////////////////////// */
+
+    .form-container {
+        flex-direction: column;
+    }
+
+    .form-content {
+        width: 100%;
+        height: 422px;
+    }
+
+    .img-content {
+        width: 100%;
+        height: 300px;
+        height: 422px;
+    }
+
+    .img-dis {
+        display: none;
+        
+    }
+    
+    
+    .form-content hr {
+        width: 90%;
+        margin-top: 10px;
+    }
+    
+    .form-content input {
+        padding: 15px 15% 15px 15px;
+        
+    }
+    
+    .form-content button {
+        padding: 15px 25.5%;
+        margin-top: 20px;
+        
+    }
 
 
 }
