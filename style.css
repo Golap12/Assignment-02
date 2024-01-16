@@ -29,11 +29,17 @@
 }
 
 
+
 .nav-menu-container ul {
     display: flex;
     gap: 40px;
     list-style: none;
 
+}
+
+.nav-menu-container .i{
+    display: none;
+    font-size: 6vw;
 }
 
 .nav-menu-container ul li a {
@@ -791,15 +797,15 @@ hr{
         gap: 5px;
     }
 
-    .nav-menu-container {
-        display: none;
-        justify-content: space-evenly;
-        align-items: center;
-        gap: 16px;
+
+
+    .nav-menu-container .i{
+        display: block;
+        font-size: 6vw;
     }
 
     .nav-menu-container ul {
-        flex-direction: column;
+        display: none;
     }
 
     .header-input {
