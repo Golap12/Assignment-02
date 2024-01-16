@@ -13,7 +13,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0px 110px 0px 130px;
-    margin-top: 50px;
+    margin-top: 24px;
 
 }
 
@@ -41,7 +41,7 @@
     color: #424247;
     font-family: Mulish;
     font-size: 1.1rem;
-    font-weight: 400;
+    font-weight: 550;
 }
 
 .nav-title-black {
@@ -138,7 +138,7 @@
     border-radius: 8px;
     background: #FF5400;
     border: none;
-    padding: 15px 15px 15px 15px;
+    padding: 14px 10px 15px 2px;
     display: flex;
     gap: 8px;
 }
@@ -176,7 +176,7 @@
     font-family: Mulish;
     font-size: 0.9rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 26px;
     margin-top: 20px;
 }
@@ -573,7 +573,7 @@
 .vd-inf-title {
     color: #131318;
     font-family: Mulish;
-    font-size: 2.7rem;
+    font-size: 2.5rem;
     font-weight: 800;
     line-height: 60px;
     padding-right: 50px;
