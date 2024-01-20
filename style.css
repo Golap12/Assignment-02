@@ -138,7 +138,7 @@
 .header-input .inp2{
     background: #FFF;
     border: none;
-    padding: 15px 12px 15px 4px;
+    padding: 15px 15px 15px 5px;
     border-radius: 8px;
     color: rgba(19, 19, 24, 0.50);
     font-size: 1rem;
@@ -822,7 +822,7 @@ hr{
     }
 
     .header-input .find-btn {
-        padding: 16px 55px 16px 55px;
+        padding: 15px 10px 15px 10px;
     }
 
     /* /////////////////////////////////////// */
@@ -848,6 +848,9 @@ hr{
 
     /* //////////////////////////////////////////////// */
 
+
+    .choose-title{
+        font-size: 1.8rem;    }
 
     .choose-dis {
         padding: 0px;
